@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color:#0094ff;
+}
+.verde {
+    background-color: #ffffff;
+}
+
+
+.centraliza {
+    margin-top: 120px;
+}
+
+.formulario {
+    width: 250px; /*tamanho do fomulario*/
+    height: 150px; /*largura do formulario*/
+    background-color:#ffd800; /*cor do meu formulario*/
+    border-radius: 5px; /*fazer a borda rendondada do formulario*/
+    box-shadow: 1px 1px 1px #696969; /*sombra do meu formulario*/
+    font-family: helvetical;
+    color: #696969;
+}
+
+.interna {
+    margin: auto;
+    text-align: center;
+    padding: 45px;
+}
+
+.centralizaBotao {
+    color:#000000;
+    font-weight: 900;
+    background-color:#ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    border-color: #ccc;
+}
