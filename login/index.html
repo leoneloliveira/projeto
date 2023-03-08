@@ -1,0 +1,61 @@
+<DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <title>trabalhando com javascript</title>
+        <link rel="stylesheet" type="text/css" href="css/login.css">
+        <script src="js/acesso.js"></script>
+    </head>
+<body>
+
+    <div class="todo">
+         </div>
+    <div class="topo verde">
+        <div class="data verde borda">
+
+            <script>
+                var data = new Date();
+                var dia = data.getDay();
+                var mes = data.getMonth();
+                var ano = data.getFullYear();
+                var meses = new Array("janeiro ", "fevereiro ", "março ",
+                                      "abril ", "maio ", "junho  ",
+                                      "julho ", "agosto ", "setembro ",
+                                     "novembro ", "dezenbro ");
+
+                var diaSemana = new Array("Domingo ", "Segunda ", "Terça ",
+                                         "Quarta ", "Quinta ", "Sexta ",
+                                         "Sabado ");
+
+                var hoje = data.getDate();
+                var strData = diaSemana[dia] + hoje + " de " + meses[mes]
+                    + " de " + ano;
+                document.write(strData)
+
+                    //*var dataOriginal = "Dia da semana " + dia +
+                   //   "\nMes: " + mes + "\nAno: " + ano;
+                  //  alert(dataOriginal + "\n"+data);
+
+            </script>
+         </div>
+           <span class="fonte">logomarca </span>
+       </div> 
+    <!-- formulario -->
+    <div class="centraliza">
+        <div class="formulario interna">
+            <form class="form">
+                login <input type="text" name="nome"><br><br>
+                senha <input type="password" name="senha"><br><br>
+                <p>
+                    <a href="esqueceu.html" class="esqueceu">
+                        Esqueceu a Senha ?
+                    </a>
+                </p><br>
+                <input type="button" name="botao" value="Enviar"
+                       class="centralizaBotao"
+                onclick="acesso(this.form)">
+                           
+
+              
+</body>   
+
+</html>
